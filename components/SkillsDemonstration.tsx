@@ -5,9 +5,8 @@ function SkillsDemonstration() {
     <div className={styles.outer}>
       <div className={styles.halfColor}></div>
       <div className={styles.inner}>
-        <SkillRow />
-        <SkillRow />
-        <SkillRow />
+        <SkillRow type={"backend"} />
+        <SkillRow type={"frontend"} />
       </div>
     </div>
   );
