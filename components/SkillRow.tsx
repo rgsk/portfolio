@@ -26,6 +26,7 @@ const details = {
       "Data Fetching - Axios, React Query, Apollo",
       "Animations - React Transition Group, Framer Motion",
       "CSS Styling - CSS modules, SASS, Material UI, Tailwind",
+      "Extra - Three JS (Beginner), D3",
     ],
   },
 };

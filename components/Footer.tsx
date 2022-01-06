@@ -16,7 +16,7 @@ function Footer() {
           <FaLinkedinIn />
         </SocialLink>
       </div>
-      <p className={styles.bottomText}>Handcrafted by me</p>
+      <p className={styles.bottomText}>Handcrafted by Rahul</p>
     </footer>
   );
 }

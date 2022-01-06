@@ -1,11 +1,12 @@
 import styles from "styles/Home.module.scss";
 import Image from "next/image";
 import SkillsDemonstration from "./SkillsDemonstration";
+import Projects from "./Projects";
 function Home() {
   return (
     <div>
       <div className={styles.firstContainer}>
-        <h1 className={styles.head}>Designer, Front-end Developer & Mentor</h1>
+        <h1 className={styles.head}>Software Developer</h1>
         <p className={styles.text}>
           I design and code beautifully simple things, and I love what I do.
         </p>
@@ -27,17 +28,25 @@ function Home() {
         <div className={styles.content}>
           <h2 className={styles.head}>Hi, I’m Rahul. Nice to meet you.</h2>
           <p className={styles.text}>
-            Since beginning my journey as a freelance designer nearly 10 years
-            ago, I've done remote work for agencies, consulted for startups, and
-            collaborated with talented people to create digital products for
-            both business and consumer use. I'm quietly confident, naturally
-            curious, and perpetually working on improving my chops one design
-            problem at a time.
+            I am a Bcom Graduate, who stumbled upon coding in my 2nd year of
+            college, I started learning Python, then Javascript, which led me to
+            Web Development, since then I am really enjoying it, its a dream
+            come true, I feel fortunate that I get to do everyday what I truly
+            love.
+          </p>
+          <br />
+          <p className={styles.text}>
+            I am learning Backend, Frontend, Data Science, 3D Programming and
+            Softwares (Blender), Desiging, basically I want to become jack of
+            all trades.
           </p>
         </div>
       </div>
       <div>
         <SkillsDemonstration />
+      </div>
+      <div>
+        <Projects />
       </div>
     </div>
   );

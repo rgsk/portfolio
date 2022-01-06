@@ -1,0 +1,10 @@
+.container {
+  color: var(--color-purple);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
