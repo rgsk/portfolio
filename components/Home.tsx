@@ -1,5 +1,6 @@
 import styles from "styles/Home.module.scss";
 import Image from "next/image";
+import SkillsDemonstration from "./SkillsDemonstration";
 function Home() {
   return (
     <div>
@@ -34,6 +35,9 @@ function Home() {
             problem at a time.
           </p>
         </div>
+      </div>
+      <div>
+        <SkillsDemonstration />
       </div>
     </div>
   );
