@@ -9,10 +9,10 @@ function Footer() {
         Living, learning, & leveling up one day at a time.
       </p>
       <div className={styles.links}>
-        <SocialLink>
+        <SocialLink href="https://github.com/rgsk">
           <AiOutlineGithub />
         </SocialLink>
-        <SocialLink>
+        <SocialLink href="https://www.linkedin.com/in/rahul-gupta-321a42161/">
           <FaLinkedinIn />
         </SocialLink>
       </div>
