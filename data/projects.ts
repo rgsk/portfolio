@@ -93,4 +93,17 @@ events, responsive design, lazy loading, fetching data from api. `,
       deployed: "https://algo-visualizer-123.netlify.app",
     },
   },
+  {
+    name: "Search Suggestion System",
+    thumbnail: "/projects/search-system.PNG",
+    description: `Implemented search system, like algolia, which searches for existence of prefix typed by user among large number of words. using 2 approaches - 1. uses nodejs add on, c++ multiMap, binary tree implementation, 2. uses pattern matching postgres. On frontend using axios to fetch data, debouncing and cancelling request. Pagination is implemented on both frontend and backend.`,
+    frontend: {
+      github: "https://github.com/rgsk/search-system-frontend",
+      deployed: "https://search-system-frontend.vercel.app",
+    },
+    backend: {
+      github: "https://github.com/rgsk/search-system-backend",
+      deployed: "https://search-suggestion-system.herokuapp.com",
+    },
+  },
 ];
