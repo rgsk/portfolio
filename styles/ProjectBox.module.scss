@@ -8,6 +8,38 @@
     position: relative;
     width: 100%;
     height: 200px;
+    cursor: pointer;
+
+    &:hover {
+      img {
+        transform: scale(1.02);
+        filter: brightness(0.4);
+      }
+      .visitButton {
+        opacity: 1;
+      }
+    }
+    img {
+      transition: all 300ms ease;
+    }
+    .visitButton {
+      cursor: pointer;
+      transition: all 300ms ease;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      opacity: 0;
+      padding: 2px 10px;
+      border-radius: 100px;
+      outline: none;
+      border: 2px solid white;
+      background-color: transparent;
+      color: white;
+      font-size: larger;
+      font-family: inherit;
+    }
   }
   .project {
     padding: 0 20px;
@@ -20,10 +52,10 @@
     .description {
       margin-top: 10px;
       font-size: 15px;
-      .readMore {
-        color: gray;
-        cursor: pointer;
-      }
+    }
+    .readMore {
+      color: gray;
+      cursor: pointer;
     }
   }
   .links {

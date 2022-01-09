@@ -1,5 +1,7 @@
 import ProjectBox from "./ProjectBox";
 import styles from "styles/Projects.module.scss";
+import { projects } from "data/projects";
+
 function Projects() {
   return (
     <div className={styles.container}>
@@ -7,9 +9,9 @@ function Projects() {
         <h1>Projects</h1>
       </div>
       <div className={styles.grid}>
-        <ProjectBox />
-        <ProjectBox />
-        <ProjectBox />
+        {projects.map((project, i) => (
+          <ProjectBox key={i} project={project} />
+        ))}
       </div>
     </div>
   );

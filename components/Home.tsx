@@ -34,12 +34,6 @@ function Home() {
             come true, I feel fortunate that I get to do everyday what I truly
             love.
           </p>
-          <br />
-          <p className={styles.text}>
-            I am learning Backend, Frontend, Data Science, 3D Programming and
-            Softwares (Blender), Desiging, basically I want to become jack of
-            all trades.
-          </p>
         </div>
       </div>
       <div>

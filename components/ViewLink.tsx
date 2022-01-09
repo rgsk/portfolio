@@ -3,14 +3,20 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { RiExternalLinkLine } from "react-icons/ri";
 interface ViewLinkProps {
   type: "live" | "code";
+  href: string;
 }
 
-function ViewLink({ type }: ViewLinkProps) {
+function ViewLink({ type, href }: ViewLinkProps) {
   return (
-    <div className={styles.container}>
+    <a
+      className={styles.container}
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+    >
       view {type}{" "}
       {type === "live" ? <RiExternalLinkLine /> : <AiOutlineGithub />}
-    </div>
+    </a>
   );
 }
 export default ViewLink;
