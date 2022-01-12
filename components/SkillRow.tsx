@@ -5,8 +5,7 @@ const details = {
   backend: {
     icon: <FiDatabase />,
     head: "Back-end",
-    description:
-      "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
+    description: "Built various CRUD apps to power business logic in my apps.",
     tools: [
       "Core - Node JS, Express, Nest JS, Apollo Graphql",
       "Databases - MongoDB, Postgres, Redis",
