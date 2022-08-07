@@ -2,6 +2,7 @@ import styles from "styles/Home.module.scss";
 import Image from "next/image";
 import SkillsDemonstration from "./SkillsDemonstration";
 import Projects from "./Projects";
+import IntroVideo from "./IntroVideo";
 function Home() {
   return (
     <div>
@@ -35,6 +36,9 @@ function Home() {
             love.
           </p>
         </div>
+      </div>
+      <div>
+        <IntroVideo />
       </div>
       <div>
         <SkillsDemonstration />
