@@ -3,11 +3,18 @@ import Image from "next/image";
 import SkillsDemonstration from "./SkillsDemonstration";
 import Projects from "./Projects";
 import IntroVideo from "./IntroVideo";
+import Links from "./Links";
 function Home() {
   return (
     <div>
       <div className={styles.firstContainer}>
-        <h1 className={styles.head}>Software Developer</h1>
+        <div>
+          <h1 className={styles.head}>Rahul Gupta</h1>
+          <div
+            className={styles.line}
+            style={{ width: "40%", margin: "8px auto" }}
+          ></div>
+        </div>
         <p className={styles.text}>
           I design and code beautifully simple things, and I love what I do.
         </p>
@@ -18,6 +25,11 @@ function Home() {
             height={150}
             alt="mf-avatar"
           />
+        </div>
+        <h3>Contact me - rahulguptacs1@gmail.com</h3>
+        <div>
+          <Links />
+          <div className={styles.line} style={{ marginTop: 8 }}></div>
         </div>
       </div>
       <div>
